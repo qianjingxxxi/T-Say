@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fake/fake",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/components/card/card",
+    "pages/components/nav/nav"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "科普圈",
+        "iconPath": "images/icon01.png",
+        "selectedIconPath": "images/icon01_color.png"
+      },
+      {
+        "pagePath": "pages/fake/fake",
+        "text": "谣言粉碎机",
+        "iconPath": "images/icon02.png",
+        "selectedIconPath": "images/icon02_color.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/icon03.png",
+        "selectedIconPath": "images/icon03_color.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

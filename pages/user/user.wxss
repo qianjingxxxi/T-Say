@@ -1,0 +1,91 @@
+/* pages/user/user.wxss */
+
+.container {
+  height: 100vh;
+  background: #f2f2f2;
+}
+
+.header {
+  position: relative;
+}
+
+.header .bg {
+  width: 100vw;
+}
+
+.header .info {
+  position: absolute;
+  left: 10%;
+  bottom: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.header .info >view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header .info text {
+  font-size: 34rpx;
+  color: #fff;
+  margin-left: 30rpx;
+}
+
+.header .img {
+  width: 150rpx;
+  height: 150rpx;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header .img:after {
+  content: "";
+  position: absolute;
+  left: -5rpx;
+  top: -5rpx;
+  width: 160rpx;
+  height: 160rpx;
+  border: 2rpx solid #fff;
+  border-radius: 50%;
+}
+
+.header .img image {
+  width: 150rpx;
+  height: 150rpx;
+  object-fit: cover;
+}
+
+.arrow {
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.content ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20rpx 3.2%;
+  margin-top: 15rpx;
+}
+
+.content ul li text {
+  font-size: 30rpx;
+  color: #666;
+}
+
+.content ul li image {
+  width: 30rpx;
+  height: 30rpx;
+}
